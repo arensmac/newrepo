@@ -1,9 +1,17 @@
 #include<stdio.h>
-
+int x,y,z,k;
+k=5;
 int main(){
-    printf("Git Rek't\n");
-    printf("commit");
-    printf("\n THE ONE PIECE IS REAL lmao");
+    for(x=0; x<5; x++){
+        for(z=k;z>0;z--){
+            printf(" ");
+        }
+        for(y=x;y>0;y--){
+            printf("* ");
+        }
+        printf("\n");
+        k--;
+    }
     return 0;
 
 }

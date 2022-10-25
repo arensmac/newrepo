@@ -1,8 +1,10 @@
 #include<stdio.h>
 int x,y,z,k;
-k=5;
+
 int main(){
-    for(x=0; x<5; x++){
+    printf("enter height:");
+    scanf("%d",&k);
+    for(x=0; x<k; x++){
         for(z=k;z>0;z--){
             printf(" ");
         }
